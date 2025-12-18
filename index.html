@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>N.V. SATILLITE SERVICE LLC</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #e6e6e6;
+    color: #222;
+}
+
+section {
+    padding: 80px 10%;
+    background: linear-gradient(#f4f4f4, #dcdcdc);
+    box-shadow: inset 0 1px 0 #fff;
+}
+
+h1, h2, h3 {
+    text-shadow: 0 1px 0 #fff;
+}
+
+button {
+    background: linear-gradient(#4a90e2, #357abd);
+    border: 1px solid #2f5f9e;
+    border-radius: 6px;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.4), 0 3px 6px rgba(0,0,0,0.3);
+}
+
+button:hover {
+    background: linear-gradient(#5aa0f0, #3f85cc);
+}
+
+.hero {
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #ffffff, #cfcfcf);
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.flex {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.flex img {
+    max-width: 45%;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+}
+
+.card {
+    background: linear-gradient(#ffffff, #ededed);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 0 #fff, 0 6px 14px rgba(0,0,0,0.3);
+}
+
+.services, .advantages, .process {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.contacts {
+    min-height: 100vh;
+    background: linear-gradient(#1f1f1f, #000);
+    color: #f1f1f1;
+}
+
+.contacts img {
+    max-width: 45%;
+    border-radius: 12px;
+}
+
+form {
+    max-width: 420px;
+    background: linear-gradient(#ffffff, #e5e5e5);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 0 #fff, 0 6px 14px rgba(0,0,0,0.4);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+footer {
+    background: #111;
+    color: #aaa;
+    padding: 30px 10%;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- 1. HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>N.V. SATILLITE SERVICE LLC</h1>
+        <p>
+            Technical consulting and IT advisory company focused on real-world system reliability, secure data architecture, and operational stability.  
+            We help businesses eliminate weak points in infrastructure, software, and security before they become costly failures.
+        </p>
+        <button onclick="document.getElementById('contacts').scrollIntoView({behavior:'smooth'})">
+            Contacts
+        </button>
+    </div>
+</section>
+
+<!-- 2. ABOUT -->
+<section>
+    <h2>Who We Are & How We Think</h2>
+    <div class="flex">
+        <div>
+            <p>
+                N.V. SATILLITE SERVICE LLC is built around practical technical expertise rather than abstract theory. 
+                We work with existing systems, inherited infrastructures, and real operational constraints.
+            </p>
+            <p>
+                Our consultants analyze how technology is actually used inside a company, not how it looks on paper.
+                This allows us to identify inefficiencies, security gaps, and scalability risks early.
+            </p>
+            <p>
+                We specialize in aligning IT decisions with business reality, ensuring long-term stability and predictable performance.
+            </p>
+        </div>
+        <img src="https://media.istockphoto.com/id/2189549277/photo/diverse-team-in-a-business-meeting-collaborating-on-projects.webp?a=1&b=1&s=612x612&w=0&k=20&c=EORkfG3dOJbwvgiiTCoccY6VJi4wnASSwi6WE984xk4=" alt="Team Meeting">
+    </div>
+</section>
+
+<!-- 3. SERVICES -->
+<section>
+    <h2>Core Areas of Expertise</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Technical & IT Consulting</h3>
+            <p>
+                We assess infrastructure, software environments, and operational workflows to uncover weak points.
+                Our recommendations are actionable, prioritized, and aligned with business goals.
+                No unnecessary tools — only what improves reliability and efficiency.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Data & System Architecture Consulting</h3>
+            <p>
+                We design and optimize data flows, storage structures, and system interactions.
+                This includes performance optimization, access control, and long-term scalability planning.
+                The result is stable data operations with predictable behavior.
+            </p>
+        </div>
+        <div class="card">
+            <h3>IT Support & Cybersecurity Advisory</h3>
+            <p>
+                We help organizations strengthen system security and reduce operational risk.
+                Our focus is prevention, monitoring strategy, and response readiness.
+                Security is treated as a business necessity, not an afterthought.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 4. ADVANTAGES -->
+<section>
+    <h2>Why Companies Choose Us</h2>
+    <div class="advantages">
+        <div class="card">
+            <h3>Practical Decision-Making</h3>
+            <p>
+                Every recommendation is based on feasibility, cost, and operational impact.
+                We avoid unnecessary complexity and vendor-driven solutions.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Risk-Oriented Approach</h3>
+            <p>
+                We focus on identifying hidden risks before they affect operations.
+                Stability and security are treated as core business assets.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Clear Communication</h3>
+            <p>
+                We explain technical issues in clear, understandable language.
+                Decision-makers receive clarity, not technical noise.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 5. PROCESS -->
+<section>
+    <h2>Our Working Process</h2>
+    <div class="process">
+        <div class="card">
+            <h3>1. Analysis & Discovery</h3>
+            <p>
+                We review systems, workflows, and objectives to understand the real situation.
+            </p>
+        </div>
+        <div class="card">
+            <h3>2. Strategy & Recommendations</h3>
+            <p>
+                We develop clear technical and organizational solutions with priorities and timelines.
+            </p>
+        </div>
+        <div class="card">
+            <h3>3. Support & Optimization</h3>
+            <p>
+                We assist during implementation and help refine systems as business needs evolve.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 6. CONTACTS -->
+<section id="contacts" class="contacts">
+    <h2>Let’s Start the Conversation</h2>
+    <div class="flex">
+        <div>
+            <p>
+                If you are looking for reliable technical guidance, structured IT decisions,
+                or improved system security — we are ready to help.
+            </p>
+            <p>
+                Reach out to us via email to discuss your current challenges and objectives.
+            </p>
+            <p>
+                <strong>Email:</strong> hello@nvsatilliteservice.pro<br>
+                <strong>Address:</strong> 1865 Paseo San Luis Ste D, Sierra Vista, AZ, 85635, US
+            </p>
+        </div>
+        <img src="https://media.istockphoto.com/id/2207541639/photo/young-professional-working-on-laptop-in-modern-office-setting.webp?a=1&b=1&s=612x612&w=0&k=20&c=EC_7jC-JsoyqQhouSSdc_oAqvwu_ncUkzaGt8TtFPBE=" alt="Business Discussion">
+    </div>
+</section>
+
+<!-- 7. CONTACT FORM -->
+<section>
+    <h2>Send Us a Message</h2>
+    <p>
+        Briefly describe your situation or question.  
+        We respond with clarity, not automated replies.
+    </p>
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea rows="4" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<!-- 8. FOOTER -->
+<footer>
+    <p>© 2025 N.V. SATILLITE SERVICE LLC. All rights reserved.</p>
+    <p>Technical Consulting • IT Support • Data & Security Advisory</p>
+</footer>
+
+</body>
+</html>
